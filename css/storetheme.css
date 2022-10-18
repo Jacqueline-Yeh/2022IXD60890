@@ -100,3 +100,11 @@
    color: #f00;
    transform: scale(1.5,1.5);
  }
+
+ .nav-toggle label {
+   display: none;
+ }
+ .well {
+   border: 1px solid var(--color-neutral-medium);
+   text-align: center;
+}

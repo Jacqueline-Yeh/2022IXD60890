@@ -46,7 +46,7 @@ a:hover {
 /* layout classes */
 
 .container {
-	width: 1200px;
+	max-width: 1200px;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -206,12 +206,39 @@ a:hover {
 		border: 2px solid #914111;
 		border-radius: 0.2em;
 	}
+	.card.dark {
+		background-color: #914111;
+		color: var(--color-neutral-light);
+	}
 	.card.medium {
 		background-color: #efcea0;
 	}
 	.card.flat {
 		padding: 0;
 	}
+
+/* Well */
+.well {
+	background-color: var(--color-neutral-light);
+	padding: 1em 0;
+	border-radius: 0.2em;
+}
+
+/* Horizontal rule */
+hr {
+	border-width: 0;
+	margin: 1em 0;
+	border-bottom: 1px dashed var(--color-neutral-medium);
+}
+
+/* Icon */
+.icon {
+	width: 1em;
+	height: 1em;
+	vertical-align: middle;
+}
+
+
 
 .view-window {
 	height: 65vh;
@@ -317,7 +344,7 @@ a:hover {
 	display: flex;
 }
 .hotdog.dark {
-	background-color: var(--color-neutral-dark);
+	background-color: #914111;
 	color: var(--color-neutral-light);
 }
 .hotdog.light {
@@ -335,7 +362,8 @@ a:hover {
 	position: relative;
 }
 .form-select::after {
-/*	content: '▼';*/
+	content: 'Λ';
+	justify-content: "space-between";
 	font-family: arial,sans-serif;
 	font-size: 1.2em;
 	position: absolute;

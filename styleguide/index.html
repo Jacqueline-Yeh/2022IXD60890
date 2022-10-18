@@ -155,7 +155,96 @@
 	</div>
 	<div class="container" id="gridsystem">
 		<h2>Grid System</h2>
-	</div>
+
+		<h3>Basic Structure</h3>
+		<h4>Single Column Non Responsive</h4>
+		<div class="grid">
+			<div class="col-xs-12">
+				<div class="well">Column 12</div>
+			</div>
+		</div>
+
+		<h4>3 Column Responsive</h4>
+		<div class="grid">
+			<div class="col-xs-12 col-md-4">
+				 <div class="well">col-xs-12 col-md-4</div>
+			</div>
+			<div class="col-xs-12 col-md-4">
+				<div class="well">col-xs-12 col-md-4</div>
+			</div>
+			<div class="col-xs-12 col-md-4">
+				<div class="well">col-xs-12 col-md-4</div>
+			</div>
+		</div>
+	
+		<h4>4 Column Responsive</h4>
+		<div class="grid">
+			<div class="col-xs-12 col-md-3">
+				<div class="well">col-xs-12 col-md-3</div>
+			</div>
+			<div class="col-xs-12 col-md-3">
+				<div class="well">col-xs-12 col-md-3</div>
+			</div>
+			<div class="col-xs-12 col-md-3">
+				<div class="well">col-xs-12 col-md-3</div>
+			</div>
+			<div class="col-xs-12 col-md-3">
+				<div class="well">col-xs-12 col-md-3</div>
+			</div>
+		</div>
+
+		<h3>Gap</h3>
+
+		<h4>4 Column Responsive with Gap</h4>
+		<div class="grid gap">
+			<div class="col-xs-12 col-md-3">
+				<div class="well">col-xs-12 col-md-3</div>
+			</div>
+			<div class="col-xs-12 col-md-3">
+				<div class="well">col-xs-12 col-md-3</div>
+			</div>
+			<div class="col-xs-12 col-md-3">
+				<div class="well">col-xs-12 col-md-3</div>
+			</div>
+			<div class="col-xs-12 col-md-3">
+				<div class="well">col-xs-12 col-md-3</div>
+			</div>
+		</div>
+
+		<h3>Other Examples</h3>
+
+			<h4>Images</h4>
+			<div class="grid gap">
+				<div class="col-xs-12 col-md-6">
+					<img src="https://via.placeholder.com/600" alt="" class="media-image">
+				</div>
+				<div class="col-xs-12 col-md-6">
+					<div class="grid gap">
+						<div class="col-xs-12 col-md-6">
+							<img src="https://via.placeholder.com/600" alt="" class="media-image">
+							<div>Text</div>
+						</div>
+						<div class="col-xs-12 col-md-6">
+							<img src="https://via.placeholder.com/600" alt="" class="media-image">
+							<div>Text</div>
+						</div>
+						<div class="col-xs-12 col-md-6">
+							<figure>
+								<img src="https://via.placeholder.com/600" alt="" class="media-image">
+								<figcaption>Text</figcaption>
+							</figure>
+						</div>
+						<div class="col-xs-12 col-md-6">
+							<figure>
+								<img src="https://via.placeholder.com/600" alt="" class="media-image">
+								<figcaption>Text</figcaption>
+							</figure>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<div class="container" id="flexsystem">
 		<h2>Flex System</h2>
 	</div>
@@ -381,7 +470,7 @@
 				<button>Button</button>
 				<h3>Form Buttons</h3>
 				<div class="form-control">
-					<button class="form button" type="button">Button</button>
+					<button class="form-button" type="button">Button</button>
 				</div>
 				<div class="form-control">
 					<input type="button" class="form-button" value="input">
