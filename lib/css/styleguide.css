@@ -362,7 +362,7 @@ hr {
 	position: relative;
 }
 .form-select::after {
-	content: 'Λ';
+	content: '▼';
 	justify-content: "space-between";
 	font-family: arial,sans-serif;
 	font-size: 1.2em;
