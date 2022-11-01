@@ -1,0 +1,32 @@
+[
+	{
+		"name":"Jacqueline Yeh",
+		"type":"Student",
+		"email":"joannya1995@gmail.com",
+		"classes":[601,608,618]
+	},
+	{
+		"name":"Carol Wu",
+		"type":"Signer",
+		"email":"carol@gmail.com",
+		"classes":[601,608,617,618]
+	},
+	{
+		"name":"Jason Yeh",
+		"type":"Engineer",
+		"email":"jason@gmail.com",
+		"classes":[249,250,369]
+	},
+	{
+		"name":"Abby Chien",
+		"type":"Dancer",
+		"email":"abby@gmail.com",
+		"classes":[250,601,608,618]
+	},
+	{
+		"name":"Diane Wu",
+		"type":"Advisor",
+		"email":"diane@gmail.com",
+		"classes":[249,608,617]
+	}
+]

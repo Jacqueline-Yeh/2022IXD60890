@@ -108,3 +108,7 @@
    border: 1px solid var(--color-neutral-medium);
    text-align: center;
 }
+
+.form-control.form-button {
+  background-color: #edcc9e;
+}

@@ -1,0 +1,17 @@
+{
+	"notes":[
+		"JSON files always start with an array[] or an object{}",
+		"JSON files cannot have comments, so put any comments in this array",
+		"Commas do between items in an array or an object, but there should NEVER be a trailing commas",
+		"All property names must be in quotation marks",
+		"Use a linter like jsonlint.com to validate JSON",
+		"Jacqueline is a beautiful girl"
+	],
+	"Files":[
+		"1 JSON files always start with an array[] or an object{}",
+		"1 JSON files cannot have comments, so put any comments in this array",
+		"1 Commas do between items in an array or an object, but there should NEVER be a trailing commas",
+		"1 All property names must be in quotation marks",
+		"1 Use a linter like jsonlint.com to validate JSON"
+	]
+}
