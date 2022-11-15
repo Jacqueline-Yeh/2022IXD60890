@@ -3,8 +3,8 @@
 <head>
 	<title>Style Guide</title>
 	<link rel="stylesheet" href="../lib/css/gridsystem.css">
-	<link rel="stylesheet" type="text/css" href="../lib/css/styleguide.css">
-	<link rel="stylesheet" type="text/css" href="../css/storetheme.css">
+	<link rel="stylesheet" href="../lib/css/styleguide.css">
+	<link rel="stylesheet" href="../css/storetheme.css">
 
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
@@ -155,96 +155,7 @@
 	</div>
 	<div class="container" id="gridsystem">
 		<h2>Grid System</h2>
-
-		<h3>Basic Structure</h3>
-		<h4>Single Column Non Responsive</h4>
-		<div class="grid">
-			<div class="col-xs-12">
-				<div class="well">Column 12</div>
-			</div>
-		</div>
-
-		<h4>3 Column Responsive</h4>
-		<div class="grid">
-			<div class="col-xs-12 col-md-4">
-				 <div class="well">col-xs-12 col-md-4</div>
-			</div>
-			<div class="col-xs-12 col-md-4">
-				<div class="well">col-xs-12 col-md-4</div>
-			</div>
-			<div class="col-xs-12 col-md-4">
-				<div class="well">col-xs-12 col-md-4</div>
-			</div>
-		</div>
-	
-		<h4>4 Column Responsive</h4>
-		<div class="grid">
-			<div class="col-xs-12 col-md-3">
-				<div class="well">col-xs-12 col-md-3</div>
-			</div>
-			<div class="col-xs-12 col-md-3">
-				<div class="well">col-xs-12 col-md-3</div>
-			</div>
-			<div class="col-xs-12 col-md-3">
-				<div class="well">col-xs-12 col-md-3</div>
-			</div>
-			<div class="col-xs-12 col-md-3">
-				<div class="well">col-xs-12 col-md-3</div>
-			</div>
-		</div>
-
-		<h3>Gap</h3>
-
-		<h4>4 Column Responsive with Gap</h4>
-		<div class="grid gap">
-			<div class="col-xs-12 col-md-3">
-				<div class="well">col-xs-12 col-md-3</div>
-			</div>
-			<div class="col-xs-12 col-md-3">
-				<div class="well">col-xs-12 col-md-3</div>
-			</div>
-			<div class="col-xs-12 col-md-3">
-				<div class="well">col-xs-12 col-md-3</div>
-			</div>
-			<div class="col-xs-12 col-md-3">
-				<div class="well">col-xs-12 col-md-3</div>
-			</div>
-		</div>
-
-		<h3>Other Examples</h3>
-
-			<h4>Images</h4>
-			<div class="grid gap">
-				<div class="col-xs-12 col-md-6">
-					<img src="https://via.placeholder.com/600" alt="" class="media-image">
-				</div>
-				<div class="col-xs-12 col-md-6">
-					<div class="grid gap">
-						<div class="col-xs-12 col-md-6">
-							<img src="https://via.placeholder.com/600" alt="" class="media-image">
-							<div>Text</div>
-						</div>
-						<div class="col-xs-12 col-md-6">
-							<img src="https://via.placeholder.com/600" alt="" class="media-image">
-							<div>Text</div>
-						</div>
-						<div class="col-xs-12 col-md-6">
-							<figure>
-								<img src="https://via.placeholder.com/600" alt="" class="media-image">
-								<figcaption>Text</figcaption>
-							</figure>
-						</div>
-						<div class="col-xs-12 col-md-6">
-							<figure>
-								<img src="https://via.placeholder.com/600" alt="" class="media-image">
-								<figcaption>Text</figcaption>
-							</figure>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
+	</div>
 		<div class="container" id="flexsystem">
 		<h2>Flex System</h2>
 	</div>
@@ -464,13 +375,78 @@
 					<input type="search" class="form-input" placeholder="Search">
 				</div>
 			</form>
+			<h3>Address</h3>
+			<form class="form">			
+				<div class="form-control">
+					<label for="address-street" class="form-label">Street</label>
+					<input type="text" class="form-input" id="address-street" placeholder="Street Name">
+				</div>
+				<div class="form-control">
+					<div class="grid gap">
+						<div class="col-xs-12 col-md-6">
+							<label for="address-city" class="form-label">City</label>
+							<input type="text" class="form-input" id="address-city" placeholder="City">
+						</div>
+						<div class="col-xs-12 col-md-6">
+							<label for="address-state" class="form-label">State</label>
+							<input type="text" class="form-input" id="address-state" placeholder="State">
+						</div>
+					</div>
+				</div>
+				<div class="form-control">
+					<div class="grid gap">
+						<div class="col-xs-12 col-md-6">
+							<label for="address-zip" class="form-label">Zip Code</label>
+							<input type="text" class="form-input" id="address-zip" placeholder="Zip Code">
+						</div>
+						<div class="col-xs-12 col-md-6">
+							<label for="address-country" class="form-label">Country</label>
+							<input type="text" class="form-input" id="address-country" placeholder="Country">
+						</div>
+					</div>
+				</div>
+				<div class="form-control">
+					<input type="text" class="form-button" value="Submit">
+				</div>
+			</form>
+				<h3>Payment</h3>
+			<form>
+				<div class="form-control">
+					<label for="payment-name" class="form-label">Name</label>
+					<input type="text" class="form-input" id="payment-name" placeholder="Name">
+				</div>
+				<div class="form-control"></div>
+					<label for="payment-number" class="form-label">Card Number</label>
+					<input type="text" class="form-input" id="payment-number" placeholder="####-####-####-####">
+				</div>
+				<div class="form-control">
+					<div class="grid gap">
+						<div class="col-xs-12 col-md-6">
+							<label for="payment-expiration" class="form-label">Expiration Dater</label>
+							<input type="text" class="form-input" id="address-expiration" placeholder="MM/YY">
+						</div>
+						<div class="col-xs-12 col-md-6">
+							<label for="payment-cvv" class="form-label">CVV</label>
+							<input type="text" class="form-input" id="payment-cvv" placeholder="CVV">
+						</div>
+					</div>
+				</div>
+				<div class="form-control">
+					<label for="payment-zip" class="form-label">Zip Code</label>
+					<input type="text" class="form-input" id="payment-zip" placeholder="Zip Code">
+				</div>
+				<div class="form-control">
+					<input type="text" class="form-button" value="Submit">
+				</div>
+			</form>
+
 			<h3 id="buttons">Buttons</h3>
 			<div class="card soft">
 				<h3>Default Buttons</h3>
 				<button>Button</button>
 				<h3>Form Buttons</h3>
 				<div class="form-control">
-					<button class="form-button" type="button">Button</button>
+					<button class="form button" type="button">Button</button>
 				</div>
 				<div class="form-control">
 					<input type="button" class="form-button" value="input">
@@ -525,7 +501,7 @@
 					</select>
 				</div>
 				<div class="display-flex">
-					<div class="flex-stretch"></div>
+					<div class="flex-stretch">
 					<div class="flex-none">
 						<select>
 							<option>1</option>

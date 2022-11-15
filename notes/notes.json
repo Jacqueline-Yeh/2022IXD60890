@@ -4,8 +4,7 @@
 		"JSON files cannot have comments, so put any comments in this array",
 		"Commas do between items in an array or an object, but there should NEVER be a trailing commas",
 		"All property names must be in quotation marks",
-		"Use a linter like jsonlint.com to validate JSON",
-		"Jacqueline is a beautiful girl"
+		"Use a linter like jsonlint.com to validate JSON"
 	],
 	"Files":[
 		"1 JSON files always start with an array[] or an object{}",

@@ -80,8 +80,14 @@ a:hover {
 .flex-justify-center {
     justify-content: center;
 }  
-.nav ul li a {
+.flex-space-between {
+	justify-content: space-between;
+}
+/*.nav ul li a {
 	margin: 0 20px;
+}*/
+.flex-column {
+	float-direction: column;
 }
 
 
@@ -216,6 +222,12 @@ a:hover {
 	.card.flat {
 		padding: 0;
 	}
+	.card-selection~.card-selection {
+		border-top: 1px solid var(--color-neutral-light);
+	}
+	.card-selection {
+		padding: 1em;
+	}
 
 /* Well */
 .well {
@@ -286,6 +298,9 @@ hr {
 }
 .figure figcaption {
 	padding: 1em;
+}
+figcaption div {
+	text-align: center;
 }
 
 /* forms */
