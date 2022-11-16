@@ -18,13 +18,12 @@
 				$result = makeQuery(
 					makeConn(),
 					"SELECT *
-					FFOM `products`
+					FROM `products`
 					ORDER BY `date_create`
 					LIMIT 12
 					");
 
-				echo "<div class='productlist grid gap'>", array_reduce($result, '
-					productListTemplate'),"</div>";
+				echo "<div class='productlist grid gap'>", array_reduce($result, 'productListTemplate'),"</div>";
 
 
 			?>

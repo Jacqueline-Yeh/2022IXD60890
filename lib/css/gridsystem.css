@@ -2,7 +2,7 @@
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 }	
-	.grid.tn {
+	.grid.ten {
 		grid-template-columns: repeat(10, 1fr);
 	}
 .grid.gap {

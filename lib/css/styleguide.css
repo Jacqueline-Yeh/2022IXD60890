@@ -50,11 +50,11 @@ a:hover {
 	margin-right: auto;
 	margin-left: auto;
 }
-.container2 {
+/*.container2 {
 	display: flex;
     justify-content: center; 
     align-items: center; 
-}
+}*/
 .display-flex{
 	display: flex;
 }
